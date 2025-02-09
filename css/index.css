@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  color: #000;
+}
+a:hover {
+  color: #0038b8;
+  text-decoration: underline 2px #0038b8;
+}
+#header {
+  background-color: whitesmoke;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#nav, ul, li {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#logo > img {
+  width: 60px;
+  border-radius: 50%;
+}
+#fullapp {
+  background-color: #0038b8;
+  height: 500px;
+}
+#fullapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#fullapp-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+#full-top-right-title {
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+}
+#full-top-right-desc {
+  color: white;
+  font-size: 1em;
+  margin: 0;
+}
+#fullapp-bottom-btn {
+  padding: 8px;
+  background-color: green;
+  border-radius: 5px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  color: white;
+}
+#fullapp-bottom-btn > a {
+  color: white;
+}
+#fullapp-bottom-btn > a:hover {
+  text-decoration: none;
+}
+#fullapp-bottom-btn:hover {
+  background-color: rgb(5, 114, 5);
+}
+#button {
+  padding: 8px;
+  background-color: #0038b8;
+  border-radius: 5px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+#button > a {
+  color: white;
+}
+#button > a:hover {
+  text-decoration: none;
+}
+#button:hover {
+  background-color: #042a85;
+}
+#copyright {
+  background-color: #0038b8;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+footer {
+  background-color: #212121;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px;
+  color: white !important;
+}
+#history {
+  padding: 50px;
+}
+#history-title {
+  font-size: 2em;
+  font-weight: bold;
+  display: flex;
+}
+#history-desc {
+  font-size: 1.2em;
+}
+#footer-img-title{
+  font-size: 1.5em;
+}
+@media only screen and (max-width: 500px) {
+  #fullapp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #fullapp-top {
+    flex-direction: column !important;
+    align-items: center;
+  }
+  #fullapp-top-right {
+    margin-right: 0px !important;
+    margin-bottom: 15px;
+  }
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  #footer-mid, #footer-right {
+    margin-top: 15px;
+  }
+  #footer-img-title{
+    font-size: 1.5em;
+  }
+  #history-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}
